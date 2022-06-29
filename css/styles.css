@@ -1,0 +1,99 @@
+body {
+    background-color: #FF0000;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+    margin-top: 6.8%;
+}
+
+a {
+    margin: 10px;
+}
+
+a:hover {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#instagram {
+    width: 40px;
+    height: 40px;
+}
+
+#linkedin {
+    width: 40px;
+    height: 40px;
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { 
+    #logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 1000px;
+        width: 1000px;
+        margin-top: 150%;
+    }
+
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+    }
+
+    a {
+        margin: 7%;
+    }
+
+    a:hover {
+        width: 140px;
+        height: 140px;
+        cursor: pointer;
+    }
+    
+    #instagram {
+        width: 110px;
+        height: 110px;
+    }
+    
+    #linkedin {
+        width: 110px;
+        height: 110px;
+    }
+
+    #socials {
+        margin-top: 100%;
+    }   
+
+    #ig-a {
+        margin-left: 600px;
+    }
+}
